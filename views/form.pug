@@ -1,0 +1,13 @@
+html
+  head
+    title Login Page
+  body
+    h1 Login Page
+    form(method="post" action="/login")
+      div
+        label(for="username-input") Username:
+        input#username-input(name="username" type="text")
+      div
+        label(for="password-input") Password:
+        input#password-input(name="password" type="password")
+      button(type="submit") Login
